@@ -1,0 +1,23 @@
+<div class="box">
+  <section>
+  <h2>{{movieItem?.title}}</h2>
+  <img [src]="movieItem?.poster">
+  </section>
+
+  <div class="info-box">
+
+    <ul>
+      <li>Genres: {{movieItem?.genres}}</li>
+      <li>Year: {{movieItem?.year}}</li>
+      <li>Director: {{movieItem?.director}}</li>
+      <li>Actors: {{movieItem?.actors}}</li>
+
+      <li>Synopsis
+        <p>{{movieItem?.synopsis}}</p>
+      </li>
+    </ul>
+
+    <button><a routerLink="/home">Home</a></button>
+  </div>
+</div>
+

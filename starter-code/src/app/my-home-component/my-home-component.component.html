@@ -1,0 +1,11 @@
+<h2>Movies list</h2>
+
+<ul class="flex">
+  <li class="movie-card" *ngFor="let oneMovie of myMovieServ.getMovies()">
+    <h3>{{oneMovie.title}}</h3>
+    <img [src]="oneMovie.poster">
+    <a [routerLink]="['/movie', oneMovie.id]">View More</a>
+  </li>
+</ul>
+
+

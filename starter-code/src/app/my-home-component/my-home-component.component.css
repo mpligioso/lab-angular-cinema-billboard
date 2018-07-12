@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 33%;
+  text-align: center;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.movie-card img {
+  height: 100px;
+}
